@@ -1,0 +1,22 @@
+# 签名密钥（绝不入库）
+*.keystore
+*.jks
+
+# TCC 运行时二进制
+assets/sysroot.zip
+assets/tcc/tcc.gz
+assets/tcc/tcc_runtime.zip
+
+# 构建中间产物
+gen/
+classes/
+dex/
+res.zip
+out.apk
+aligned.apk
+*.idsig
+.build_*/
+
+# 系统/IDE
+.DS_Store
+Thumbs.db
