@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ccode.mintest"
+    android:versionCode="63"
+    android:versionName="1.28.25">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="34" />
+    <application
+        android:label="c语言草稿纸"
+        android:theme="@style/AppTheme"
+        android:allowBackup="false"
+        android:resizeableActivity="true"
+        android:maxAspectRatio="3.0">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"
+            android:windowLayoutInDisplayCutoutMode="shortEdges">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+    </application>
+</manifest>

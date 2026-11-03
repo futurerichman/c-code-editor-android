@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_bg"
+        android:title="设置背景（图片/视频）" />
+    <item
+        android:id="@+id/action_bg_opacity"
+        android:title="背景透明度" />
+    <item
+        android:id="@+id/action_bg_video_mode"
+        android:title="视频背景模式" />
+    <item
+        android:id="@+id/action_bg_layer_test"
+        android:title="视频背景图层设置" />
+    <item
+        android:id="@+id/action_about"
+        android:title="关于作者" />
+</menu>
